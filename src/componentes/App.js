@@ -1,5 +1,5 @@
 import './App.css';
-import componentes from "./Menu_horizontal.js";
+import componentes from "./Menu_horizontal.jsx";
 
 function App() {
   return (
