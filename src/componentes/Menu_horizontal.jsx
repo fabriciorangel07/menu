@@ -42,12 +42,12 @@ export default function Menu() {
                 </section>
 
                 <a className =  "Irtopo" href = ".menu">Topo</a>
-                <a className =  "Irtopo" href = "#nossocanal">Nosso Canal</a>
-                <a className =  "Irtopo" href = "#cursos">Cursos</a>
-                <a className =  "Irtopo" href = "#contatos">Contatos</a>
-                <a className =  "Irtopo" href = "#parceiros">Parceiros</a>
-                <a className =  "Irtopo" href = "#missao">Missão</a>
-                <a className =  "Irtopo" href = "#sobre">Sobre</a>
+                <a className =  "irInicio" href = "#nossocanal">Nosso Canal</a>
+                <a className =  "irCursos" href = "#cursos">Cursos</a>
+                <a className =  "irContatos" href = "#contatos">Contatos</a>
+                <a className =  "irParceiros" href = "#parceiros">Parceiros</a>
+                <a className =  "irMissao" href = "#missao">Missão</a>
+                <a className =  "irTopo" href = "#sobre">Sobre</a>
 
                 <footer>
                     <h2>Rodape</h2>

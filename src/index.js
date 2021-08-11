@@ -14,6 +14,6 @@ ReactDOM.render(
   
   </div>,
  
-  document.getElementById('root'),
+  document.getElementById('root')
 
 )
