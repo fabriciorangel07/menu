@@ -1,5 +1,5 @@
 import './App.css';
-import componentes from "./Menu_horizontal.jsx";
+import './Menu_horizontal.jsx';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <menu />
 
     </div>
-  );
+  )
 }
 
 export default App;
