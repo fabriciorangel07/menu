@@ -1,104 +1,166 @@
 .menu {
-    height: 40px;
-    border: 1px solid rgb(red, green, blue);
-    background-color: beige;
-    padding-bottom: 8px;
-    font-size: 16px;
-}
+    height:48px;
+    border: 1px solid rgb(60, 53, 53);
 
-/*.navMenu {
-    background-color: gray;
-    height: 5vh;
-}*/
-
-#inicio, #cursos, #contatos, #parceiros, #missao, #sobre {
-    border: 1px solid black;
 }
 
 .navMenu::after {
-    content: '';
-    display: block;
+    content:'';
+    display:block;
     clear: both;
+}
+.Navmenu a {
+    text-decoration: none;
 }
 
 .navMenu ul {
     list-style: none;
     text-align: left;
-    display: flex;
-    margin: 2px;
+    display:flex;
 }
+
+
 
 .navMenu ul li a {
     padding-left: 2vw;
     display: inline-block;
     text-decoration: none;
-    color: #333
+    color: blue;
+
 }
 
 .navMenu ul li a:hover {
+    
     font-weight: bold;
     font-size: 18px;
-    color: blue;
+    color:blue;
 }
+
+#inicio,
+#cursos,
+#contatos,
+#parceiros,
+#missao,
+#sobre {
+    border: 1px solid black;
+    text-align:  center;
+}
+
 
 #inicio {
-    height: 70vh;
-    background-color: greenyellow;
-    border: 1px solid red;
+    height:50vh;
+    background-color:greenyellow;
 }
-
 #cursos {
-    height: 90vh;
-    background-color: hotpink;
-    border: 1px solid blue;
+    height:50vh;
+    background-color:hotpink;
 }
-
 #contatos {
-    height: 60vh;
+    height:60vh;
     background-color: orange;
-    border: 1px solid black;
 }
-
 #parceiros {
-    height: 40vh;
+    height:60vh;
     background-color: thistle;
-    border: 1px solid rebeccapurple;
 }
 
 #missao {
-    height: 90vh;
-    background-color: teal; 
-    border: 1px solid yellow;
+    height:50vh;
+    border: 1px solid black;
 }
-
 #sobre {
-    height: 10vh;
-    background-color: seashell;
-    border: 1px solid red;
+    height:50vh;
+    background-color:tan;
 }
 
-.irTopo, .irInicio, .irCursos, .irCursos, .irContatos, .irParceiros, .irMissao, .irSobre {
+.irtopo, 
+.irinicio,
+.ircursos,
+.ircontato,
+.irparceiros,
+.irmissao,
+.irsobre {
     font-size: 12px;
     padding: 1vh;
     transition: 0.2s;
-    position: fixed;
-    right: 1vh;
     text-decoration: none;
     width: 90px;
     text-align: center;
+    right: 1vh;
+    position: fixed;
     border-radius: 4px;
-    }
-    
-.Irtopo {
-    font-size: 12px;
-    padding: 1vh;
-    transition: 0.2s;
+
+}
+
+
+.irtopo {
     bottom: 14vh;
-    position: fixed;
-    text-decoration: none;
-    right: 1vh;
-    width: 90px;
-    text-align: center;
-    color: white;
-    border-radius: 4px;
+    color:white;
+    background-color:rgba(0,0,0,0.3);
+
+}
+
+.irtopo:hover {
+    background-color:rgba(0,0,0,0.6)
+}
+
+
+.irinicio {
+    bottom: 75vh;
+    color:green;
+    background-color:bisque;
+}
+
+.irinicio:hover {
+    background-color:rgb(167, 133, 92);
+}
+
+.ircursos {
+    bottom: 71vh;
+    color:green;
+    background-color:cyan;
+}
+
+.ircursos:hover {
+    background-color:rgb(26, 169, 169);
+}
+
+.ircontato {
+    bottom: 67vh;
+    color:green;
+    background-color:darkorange;
+}
+
+.ircontato:hover {
+    background-color:rgb(179, 121, 49);
+}
+
+.irparceiros {
+    bottom: 63vh;
+    color:green;
+    background-color:lightcoral;
+}
+
+.irparceiros:hover {
+    background-color:rgb(121, 52, 52);
+}
+
+.irmissao {
+    bottom: 59vh;
+    color:white;
+    background-color:royalblue;
+}
+
+.irmissao:hover {
+    background-color:rgb(26, 46, 106);
+}
+
+.irsobre {
+    bottom: 55vh;
+    color:white;
+    background-color:darkcyan;
+}
+
+.irsobre:hover {
+    background-color:rgb(41, 130, 130);
 }

@@ -1,14 +1,13 @@
 import './App.css';
-import './Menu_horizontal.jsx';
+import Menu from './Menu_horizontal.jsx'
 
 function App() {
   return (
-    <div>
+     <div>
+       <Menu />
+     </div>
 
-      <menu />
-
-    </div>
-  )
+  );
 }
 
 export default App;

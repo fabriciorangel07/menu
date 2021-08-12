@@ -1,19 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-
-import './componentes/Menu_horizontal.jsx';
-
-import reportWebVitals from './reportWebVitals';
+import '../src/index.css';
+import App from './componentes/App';
 
 ReactDOM.render(
- 
-  <div>
-
-    <app />
-  
-  </div>,
- 
-  document.getElementById('root'),
-
-)
+<div> 
+    <App />
+</div>,
+  document.getElementById('root')
+);
