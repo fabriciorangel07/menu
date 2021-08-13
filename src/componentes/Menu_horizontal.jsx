@@ -31,26 +31,26 @@ export default function Menu() {
                     </section>
 
                     <section id="cursos">
-                    <h1>Cursos</h1>
+                    <h2>Cursos</h2>
                     </section>
 
                     <section id="contatos">
-                    <h1>Contatos</h1>
+                    <h2>Contatos</h2>
                     </section>
 
                     <section id="parceiros">
-                    <h1>Parceiros</h1>
+                    <h2>Parceiros</h2>
                     </section>
 
                     <section id="missao">
-                    <h1>Missão</h1>
+                    <h2>Missão</h2>
                     </section>
 
                     <section id="sobre">
-                    <h1>Sobre</h1>
+                    <h2>Sobre</h2>
                     </section>
 
-           <a href=".menu" className="irtopo">Topo</a>
+           <a href="#menu" className="irtopo">Topo</a>
            <a href="#inicio" className="irinicio">Nosso Canal</a>
            <a href="#cursos" className="ircursos">Cursos</a>
            <a href="#contatos" className="ircontato">Contato</a>

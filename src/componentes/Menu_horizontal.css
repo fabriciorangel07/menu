@@ -94,7 +94,7 @@
 
 
 .irtopo {
-    bottom: 14vh;
+    bottom: 79vh;
     color:white;
     background-color:rgba(0,0,0,0.3);
 
@@ -167,14 +167,14 @@
 
 .aside {
     position: fixed;
-    left: -5vw;
+    left: -2vw;
     transition: 0.2s;
-    padding: 2vh;
+    padding: 4vh;
     width: 5vw;
     text-decoration: none;
     font-size: 16px;
-    color: #fff;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 20px 20px 0px;
+    clear: both;
 }
 
 .aside a:hover {
@@ -187,26 +187,27 @@
 }
 
 #cursos2 {
-    top: 25vh;
+    top: 30vh;
     background-color: red;
 }
 
 #contatos2 {
-    top: 30vh;
+    top: 40vh;
     background-color: yellow;
 }
 
+
+#parceiros2 {
+    top: 50vh;
+    background-color: red;
+}
+
 #missao2 {
-    top: 35vh;
+    top: 60vh;
     background-color: cyan;
 }
 
 #sobre2 {
-    top: 40vh;
+    top: 70vh;
     background-color: palevioletred;
-}
-
-#inicio2 {
-    top: 45vh;
-    background-color: green;
 }
