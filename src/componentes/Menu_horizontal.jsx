@@ -17,9 +17,6 @@ export default function Menu() {
                 </ul>
             </nav>
           </div>
-                    <section id="inicio">
-                    <h2>Nosso Canal</h2>
-
                         <aside className="aside">
                             <a href="#inicio" id="inicio2"> Nosso Canal </a>
                             <a href="#cursos" id="cursos2"> Cursos </a>
@@ -28,6 +25,9 @@ export default function Menu() {
                             <a href="#missao" id="missao2"> Missão </a>
                             <a href="#sobre" id="sobre2"> Sobre </a>
                         </aside>
+                        
+                    <section id="inicio">
+                        <h2>Nosso Canal</h2>
                     </section>
 
                     <section id="cursos">
